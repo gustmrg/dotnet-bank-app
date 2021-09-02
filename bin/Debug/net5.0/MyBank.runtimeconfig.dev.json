@@ -1,0 +1,8 @@
+{
+  "runtimeOptions": {
+    "additionalProbingPaths": [
+      "/home/gmiranda/.dotnet/store/|arch|/|tfm|",
+      "/home/gmiranda/.nuget/packages"
+    ]
+  }
+}

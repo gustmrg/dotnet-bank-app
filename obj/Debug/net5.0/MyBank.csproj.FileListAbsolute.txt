@@ -1,0 +1,16 @@
+/opt/workspace/MyBank/bin/Debug/net5.0/MyBank
+/opt/workspace/MyBank/bin/Debug/net5.0/MyBank.deps.json
+/opt/workspace/MyBank/bin/Debug/net5.0/MyBank.runtimeconfig.json
+/opt/workspace/MyBank/bin/Debug/net5.0/MyBank.runtimeconfig.dev.json
+/opt/workspace/MyBank/bin/Debug/net5.0/MyBank.dll
+/opt/workspace/MyBank/bin/Debug/net5.0/ref/MyBank.dll
+/opt/workspace/MyBank/bin/Debug/net5.0/MyBank.pdb
+/opt/workspace/MyBank/obj/Debug/net5.0/MyBank.csproj.AssemblyReference.cache
+/opt/workspace/MyBank/obj/Debug/net5.0/MyBank.GeneratedMSBuildEditorConfig.editorconfig
+/opt/workspace/MyBank/obj/Debug/net5.0/MyBank.AssemblyInfoInputs.cache
+/opt/workspace/MyBank/obj/Debug/net5.0/MyBank.AssemblyInfo.cs
+/opt/workspace/MyBank/obj/Debug/net5.0/MyBank.csproj.CoreCompileInputs.cache
+/opt/workspace/MyBank/obj/Debug/net5.0/MyBank.dll
+/opt/workspace/MyBank/obj/Debug/net5.0/ref/MyBank.dll
+/opt/workspace/MyBank/obj/Debug/net5.0/MyBank.pdb
+/opt/workspace/MyBank/obj/Debug/net5.0/MyBank.genruntimeconfig.cache
