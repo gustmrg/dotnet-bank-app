@@ -31,7 +31,7 @@ namespace MyBank
                         break;
 
                     case "3":
-                        // Transferir
+                        Transferir();
                         break;
                     case "4": 
                         // Sacar
@@ -87,7 +87,7 @@ namespace MyBank
             Console.Write("> ");
             string inputNome = Console.ReadLine();
 
-            Console.WriteLine("Digite o tipo de conta: ");
+            Console.WriteLine("Digite o tipo de conta (1 - PF, 2 - PJ): ");
             Console.Write("> ");
             int inputTipoConta = int.Parse(Console.ReadLine());
 
@@ -109,17 +109,35 @@ namespace MyBank
             Console.ReadKey();
         }
 
+        private static void Transferir()
+        {
+            Console.WriteLine("Digite o número da conta de origem: "); // numero que corresponde ao indice da lista de contas
+            Console.Write("> ");
+            int numContaOrigem = int.Parse(Console.ReadLine());
+
+            Console.WriteLine("Digite o número da conta de destino: "); // numero que corresponde ao indice da lista de contas
+            Console.Write("> ");
+            int numContaDestino = int.Parse(Console.ReadLine());
+
+            Console.WriteLine("Digite o valor que deseja transferir: ");
+            Console.Write("> ");
+            double valorTransferencia = double.Parse(Console.ReadLine());
+
+            lista[numContaOrigem].Transferir(valorTransferencia, lista[numContaDestino]);
+            Console.ReadKey();
+        }
+
         private static void SacarConta()
         {
-            Console.WriteLine("Digite o número da conta: ");
+            Console.WriteLine("Digite o número da conta: "); // numero que corresponde ao indice da lista de contas
             Console.Write("> ");
-            int numConta = int.Parse(Console.ReadLine());
+            int indiceConta = int.Parse(Console.ReadLine());
 
             Console.WriteLine("Digite o valor que deseja sacar: ");
             Console.Write("> ");
             double valorSaque = double.Parse(Console.ReadLine());
 
-            lista[numConta].Sacar(valorSaque);
+            lista[indiceConta].Sacar(valorSaque);
             Console.ReadKey();
         }
 
