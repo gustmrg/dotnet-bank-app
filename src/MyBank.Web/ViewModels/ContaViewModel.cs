@@ -1,12 +1,10 @@
-using MyBank.Business.Enums;
+namespace MyBank.Web.ViewModels;
 
-namespace MyBank.Business.Models;
-
-public class Conta : Entidade
+public class ContaViewModel
 {
     public string Nome { get; set; }
     public decimal Saldo { get; set; }
-    public TipoConta TipoConta { get; set; }
+    public int TipoConta { get; set; }
     public DateTime DataAbertura { get; set; }
     public DateTime? DataEncerramento { get; set; }
     public bool Ativa { get; set; }

@@ -1,6 +1,6 @@
 ﻿using System.Diagnostics;
 using Microsoft.AspNetCore.Mvc;
-using MyBank.Web.Models;
+using MyBank.Web.ViewModels;
 
 namespace MyBank.Web.Controllers;
 

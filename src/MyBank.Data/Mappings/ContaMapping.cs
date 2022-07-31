@@ -24,7 +24,12 @@ public class ContaMapping : IEntityTypeConfiguration<Conta>
         builder.Property(c => c.DataAbertura)
             .HasColumnType("date");
 
-        builder.ToTable("Contas");
+        builder.Property(c => c.DataEncerramento)
+            .HasColumnType("date");
 
+        builder.Property(c => c.Ativa)
+            .HasColumnType("bit");
+
+        builder.ToTable("Contas");
     }
 }
